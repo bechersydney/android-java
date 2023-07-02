@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RemoveActionBarFromSpecificActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_900</item>
+        <item name="android:colorAccent">@color/amber_500</item>
+        <item name="android:textColor">@color/amber_500</item>
+    </style>
+
+    <style name="Theme.RemoveActionBarFromSpecificActivity" parent="Base.Theme.RemoveActionBarFromSpecificActivity" />
+<!--   this theme will make the activity no action bar but it will inherit the app theme -->
+    <style name="Theme.RemoveActionBarFromSpecificActivity.noActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

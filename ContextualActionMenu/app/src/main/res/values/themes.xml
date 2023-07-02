@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ContextualActionMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="actionModeBackground">@color/red</item>
+        <!-- if have custom toolbar push it lower so have space for action mode, to fix use below-->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Theme.ContextualActionMenu" parent="Base.Theme.ContextualActionMenu" />
+</resources>

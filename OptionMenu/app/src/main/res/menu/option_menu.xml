@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item1"
+        android:title="@string/item1"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_bluetooth"/>
+    <item android:id="@+id/item2"
+        android:title="Item 2"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_bluetooth"/>
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_bluetooth"
+        android:title="Item 3"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/sub1"
+                android:title="subItem 1"/>
+            <item android:id="@+id/sub2"
+                android:title="subItem 2"/>
+        </menu>
+    </item>
+</menu>
