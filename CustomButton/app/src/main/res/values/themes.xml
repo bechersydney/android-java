@@ -1,9 +1,17 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.CustomButton" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="buttonStyle">@style/MyButton</item>
     </style>
 
     <style name="Theme.CustomButton" parent="Base.Theme.CustomButton" />
+    <!--    custom button style-->
+    <style name="MyButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/drawable_button</item>
+        <item name="android:textColor">@color/white</item>
+        <!--        remove animation-->
+        <item name="android:stateListAnimator">@null</item>
+    </style>
 </resources>

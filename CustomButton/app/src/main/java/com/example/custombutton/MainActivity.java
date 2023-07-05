@@ -20,5 +20,8 @@ public class MainActivity extends AppCompatActivity {
         sw.setOnCheckedChangeListener((view, isChecked)->{
             btn.setEnabled(isChecked);
         });
+        // take note, this is app also demo how to create shape, look for drawable_default.xml
+        // if you want to apply it globally, set the style to theme.xml
+        // if not, then set theme every button
     }
 }
