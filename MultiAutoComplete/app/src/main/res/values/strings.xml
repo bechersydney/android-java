@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MultiAutoComplete</string>
+    <string-array name="countries">
+        <item>Poland</item>
+        <item>Philippines</item>
+        <item>Patriot</item>
+        <item>Polka</item>
+    </string-array>
+</resources>

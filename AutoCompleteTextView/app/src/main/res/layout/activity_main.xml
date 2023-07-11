@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="Select a country"
+        android:completionThreshold="1"
+        android:dropDownAnchor="@id/anchor"
+        android:popupTheme="@color/black"
+        android:hint="Select country" />
+
+    <TextView
+        android:id="@+id/anchor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Countries"
+        android:textSize="20sp"
+        android:paddingBottom="16dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
